@@ -5,10 +5,12 @@
 
 #include "vertexCover.h"
 #include "IndependentSet.h"
+#include "BicliquePartition.h"
 
 int main() {
     //vertexCover();
-    IndependentSet();
+    //IndependentSet();
+    bicliquePartition();
     return 0;
 }
 
