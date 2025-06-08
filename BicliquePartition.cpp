@@ -57,7 +57,7 @@ void bicliquePartition() {
 							model.addConstr(constraints[i][j] <= 2);
 							break;
 						case PARTITION_13: // contraints[i][j]==2x+1
-							GRBVar x = model.addVar(0, 1, 0, GRB_BINARY, "x" + to_string(i) + to_string(j));
+							GRBVar x = model.addVar(0, 1, 0, GRB_BINARY, "x" + to_string(i) +" "+ to_string(j));
 							model.addConstr(constraints[i][j] == 2*x + 1);
 							break;
 						}
