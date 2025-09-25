@@ -11,6 +11,7 @@ void bicliquePartition() {
 	vector<vector<int>> graph=makeAdjecencyMatrix(n,ne);
 	vector<pair<vector<int>, vector<int>>> bicliques = makeAllBicliques(graph, n);
 	int nb = bicliques.size();
+	cout << "No. of bicliques " << nb << endl;
 	int type = 0;
 	/*for (auto it : bicliques) {
 		cout << "***********************" << endl;

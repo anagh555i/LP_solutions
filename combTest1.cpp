@@ -6,11 +6,14 @@
 #include "vertexCover.h"
 #include "IndependentSet.h"
 #include "BicliquePartition.h"
+#include "ProductGraphPartition.h"
 
 int main() {
     //vertexCover();
     //IndependentSet();
     bicliquePartition();
+    //partition_4partite4graph();
+    //productPartition();
     return 0;
 }
 

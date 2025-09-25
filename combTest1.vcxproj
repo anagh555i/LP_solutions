@@ -137,6 +137,7 @@
     <ClCompile Include="combTest1.cpp" />
     <ClCompile Include="graph.cpp" />
     <ClCompile Include="IndependentSet.cpp" />
+    <ClCompile Include="ProductGraphPartition.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="vertexCover.cpp" />
   </ItemGroup>
@@ -144,8 +145,15 @@
     <ClInclude Include="BicliquePartition.h" />
     <ClInclude Include="graph.h" />
     <ClInclude Include="IndependentSet.h" />
+    <ClInclude Include="ProductGraphPartition.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="vertexCover.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="oneThreePartition.result" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="OneThreePartition.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
