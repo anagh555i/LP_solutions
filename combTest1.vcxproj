@@ -140,6 +140,7 @@
     <ClCompile Include="ProductGraphPartition.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="vertexCover.cpp" />
+	 <ClCompile Include="NPartiteNGraph.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BicliquePartition.h" />
@@ -148,6 +149,7 @@
     <ClInclude Include="ProductGraphPartition.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="vertexCover.h" />
+	 <ClCompile Include="NPartiteNGraph.h"/>
   </ItemGroup>
   <ItemGroup>
     <Text Include="OneThreePartition.txt" />
