@@ -7,4 +7,5 @@ using namespace std;
 #define PARTITION_12 1
 #define PARTITION_13 2
 
-void bicliquePartition();
+void bicliquePartition(); 
+void bicliquePartitionV2();
