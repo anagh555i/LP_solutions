@@ -140,7 +140,7 @@
     <ClCompile Include="ProductGraphPartition.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="vertexCover.cpp" />
-	 <ClCompile Include="NPartiteNGraph.cpp"/>
+    <ClCompile Include="NPartiteNGraph.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BicliquePartition.h" />
@@ -149,12 +149,10 @@
     <ClInclude Include="ProductGraphPartition.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="vertexCover.h" />
-	 <ClCompile Include="NPartiteNGraph.h"/>
+    <ClCompile Include="NPartiteNGraph.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="oneThreePartition.result" />
-  </ItemGroup>
-  <ItemGroup>
+    <Text Include="OddPartitions.txt" />
     <Text Include="OneThreePartition.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

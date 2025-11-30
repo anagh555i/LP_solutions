@@ -23,9 +23,10 @@ vector<vector<int>> makeAdjecencyMatrix(int& n, int& ne) {
 	cout << "No of vertices:";
 	cin >> n;
 	vector<vector<int>> graph(n,vector<int>(n,0));
-	cout << "No of edges:";
+	cout << "No of edges(-1 for complete graphs):";
 	cin >> ne;
-	if (ne == ((n * (n - 1)) >> 1)) { // instantly return the complete graph
+	//if (ne == ((n * (n - 1)) >> 1)) { // instantly return the complete graph
+	if (ne == -1 || ne == ((n * (n - 1)) >> 1)) { // instantly return the complete graph
 		for (int i = 0;i < n;i++) {
 			for (int j = i + 1;j < n;j++) {
 				graph[i][j] = 1;

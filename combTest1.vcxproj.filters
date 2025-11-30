@@ -61,9 +61,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="oneThreePartition.result" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="OneThreePartition.txt" />
   </ItemGroup>
 </Project>

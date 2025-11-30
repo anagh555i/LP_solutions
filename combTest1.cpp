@@ -2,6 +2,7 @@
 //
 #include "gurobi_c++.h"
 #include <iostream>
+#include <bitset>
 
 #include "vertexCover.h"
 #include "IndependentSet.h"
@@ -11,9 +12,10 @@
 int main() {
     //vertexCover();
     //IndependentSet();
-    bicliquePartition();
+    //bicliquePartition();
     //partition_4partite4graph();
     //productPartition();
+    bicliquePartitionV2();
     return 0;
 }
 
